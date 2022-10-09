@@ -21,13 +21,13 @@
                 @foreach($books as $book)
                 <div class="col-xs-18 col-sm-6 col-md-3">
                     <div class="thumbnail">
-                        <img src="{{ $book->image }}" alt="">
+                        <img src="{{ $book->cover }}" width="156" height="216" alt="">
                         <div class="caption">
                             <h4>{{ $book->name }}</h4>
                             <p>{{ $book->description }}</p>
                             <p>{{ $book->stock }}</p>
                             <p><strong>Price: </strong> {{ $book->price }}$</p>
-                            <p class="btn-holder"><a href="{{ route('add.to.cart', $book->id) }}"
+                            <p class="btn-holder"><a href="{{ route('add.to.cart', $book->ISBN) }}"
                                     class="btn btn-warning btn-block text-center" role="button">Add to cart</a> </p>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                 @foreach($books as $book)
                 <div class="col-xs-18 col-sm-6 col-md-3">
                     <div class="thumbnail">
-                        <img src="{{ $book->image }}" alt="">
+                        <img src="{{ $book->cover }}" width="156" height="216" alt="">
                         <div class="caption">
                             <h4>{{ $book->name }}</h4>
                             <p>{{ $book->description }}</p>
