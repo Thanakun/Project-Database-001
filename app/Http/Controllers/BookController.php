@@ -94,7 +94,10 @@ class BookController extends Controller
         $book = Book::findOrFail($ISBN);
 
         // find the cart which has product that has same name with the selected product
-        $cart = Cart::where('name', '=', $book->name)->first();
+        $cart = Cart::where([
+            'name' => $book->name,
+            'owner_id' => Auth::id()
+            ])->first();
 
         \DB::transaction(function () use($book,$cart){
 
