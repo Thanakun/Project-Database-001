@@ -24,6 +24,8 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->string('author_name');
             $table->bigInteger('author_id')->unsigned();
+            $table->boolean('manga_flag');
+            $table->boolean('novel_flag');
             $table->integer('stock');
             $table->timestamps();
             $table->foreign('author_id')->references('id')->on('authors')->onDelete('cascade');
