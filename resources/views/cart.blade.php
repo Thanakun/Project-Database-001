@@ -29,7 +29,7 @@
             @php $total += $cart->price*$cart->quantity @endphp
             <td>
                 <div class="row">
-                    <div class="col-sm-3 hidden-xs"><img src="{{ $cart->image }}" width="100" height="100"
+                    <div class="col-sm-3 hidden-xs"><img src="{{ $cart->image }}" width="72" height="100"
                             class="img-responsive" /></div>
                     <div class="col-sm-9">
                     </div>
