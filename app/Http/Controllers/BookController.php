@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Book;
+use App\Models\Cart;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
@@ -48,11 +49,11 @@ class BookController extends Controller
      * @return \Illuminate\Http\Response
      * 
      */    
-    public function remove($id)
+    public function remove($ISBN)
     {
         // find the cart by id
         // carts have lots of (mini)cart which has one type of product
-        $cart = Cart::findOrFail($id);
+        $cart = Cart::findOrFail($ISBN);
 
         // find the product which has same name with product in the cart
         $book = Book::where('name', '=', $cart->name)->first();
@@ -82,15 +83,15 @@ class BookController extends Controller
      * @return \Illuminate\Http\Response
      * 
      */    
-    public function addToCart($id)
+    public function addToCart($ISBN)
     {
         
         if(!Auth::user()){
             return view('home.index');
         }
         
-        // find product by id
-        $book = Book::findOrFail($id);
+        // find product by ISBN
+        $book = Book::findOrFail($ISBN);
 
         // find the cart which has product that has same name with the selected product
         $cart = Cart::where('name', '=', $book->name)->first();
@@ -110,14 +111,14 @@ class BookController extends Controller
             $cart->books_ISBN = $book->ISBN;
             $cart->quantity = 1;
             $cart->price = $book->price;
-            $cart->image = $book->image;
+            $cart->image = $book->cover;
             $cart->owner_id = Auth::id();
             $cart->save();
         }
 
         // for both case, remove one product from stock
-        $product->stock = $product->stock-1 ;
-        $product->save();
+        $book->stock = $book->stock-1 ;
+        $book->save();
         });
 
         // flash a message popup
@@ -153,7 +154,7 @@ class BookController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($ISBN)
     {
         //
     }
