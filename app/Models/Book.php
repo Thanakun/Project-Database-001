@@ -24,6 +24,8 @@ class Book extends Model
         
     ];
 
+     protected $primaryKey = 'ISBN';
+
     /**
      * One-To-Many relationship
      * 
