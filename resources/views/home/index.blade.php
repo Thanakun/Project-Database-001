@@ -25,8 +25,8 @@
                         <div class="caption">
                             <h4>{{ $book->name }}</h4>
                             <p>{{ $book->description }}</p>
-                            <p>{{ $book->stock }}</p>
-                            <p><strong>Price: </strong> {{ $book->price }}$</p>
+                            <p><strong>Stock: </strong>{{ $book->stock }}</p>
+                            <p><strong>Price: </strong> {{ $book->price }} ฿</p>
                             <p class="btn-holder"><a href="{{ route('add.to.cart', $book->ISBN) }}"
                                     class="btn btn-warning btn-block text-center" role="button">Add to cart</a> </p>
                         </div>
@@ -54,8 +54,8 @@
                         <div class="caption">
                             <h4>{{ $book->name }}</h4>
                             <p>{{ $book->description }}</p>
-                            <p>{{ $book->stock }}</p>
-                            <p><strong>Price: </strong> {{ $book->price }}$</p>
+                            <p><strong>Stock: </strong>{{ $book->stock }}</p>
+                            <p><strong>Price: </strong> {{ $book->price }} ฿</p>
                         </div>
                     </div>
                 </div>
