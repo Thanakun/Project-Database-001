@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('publisher_name', 255);
             $table->date('publisher_date')->nullable();
             $table->text('description')->nullable();
+            $table->string('author_name');
             $table->bigInteger('author_id')->unsigned();
             $table->integer('stock');
             $table->timestamps();
