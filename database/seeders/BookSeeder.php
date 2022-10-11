@@ -1854,7 +1854,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786163242433',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 2',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/9/96/DanMachi_Light_Novel_Volume_2_Cover.jpg/revision/latest?cb=20210415083104',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/9/96/DanMachi_Light_Novel_Volume_2_Cover.jpg',
                 'price' => 153,
                 'pages_num' => 256,
                 'publisher_name' => ' Zenshu',
@@ -1868,7 +1868,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786163242594',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 3',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/3/37/DanMachi_Light_Novel_Volume_3_Cover.png/revision/latest/scale-to-width-down/350?cb=20150605081216',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/3/37/DanMachi_Light_Novel_Volume_3_Cover.png',
                 'price' => 131,
                 'pages_num' => 208,
                 'publisher_name' => ' Zenshu',
@@ -1882,7 +1882,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786163243430',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 4',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/5/5a/DanMachi_Light_Novel_Volume_4_Cover.png/revision/latest/scale-to-width-down/348?cb=20150605081246',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/5/5a/DanMachi_Light_Novel_Volume_4_Cover.png',
                 'price' => 144,
                 'pages_num' => 240,
                 'publisher_name' => ' Zenshu',
@@ -1896,7 +1896,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786163244116',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 5',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/3/3e/DanMachi_Light_Novel_Volume_5_Cover.jpg/revision/latest/scale-to-width-down/350?cb=20210415092119',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/3/3e/DanMachi_Light_Novel_Volume_5_Cover.jpg',
                 'price' => 162,
                 'pages_num' => 288,
                 'publisher_name' => ' Zenshu',
@@ -1910,7 +1910,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786163244871',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 6',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/1/1a/DanMachi_Light_Novel_Volume_6_Cover.png/revision/latest/scale-to-width-down/349?cb=20150605081311',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/1/1a/DanMachi_Light_Novel_Volume_6_Cover.png',
                 'price' => 153,
                 'pages_num' => 272,
                 'publisher_name' => ' Zenshu',
@@ -1924,7 +1924,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786163245281',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 7',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/e/ea/DanMachi_Light_Novel_Volume_7_Cover.png/revision/latest/scale-to-width-down/350?cb=20150605081700',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/e/ea/DanMachi_Light_Novel_Volume_7_Cover.png',
                 'price' => 189,
                 'pages_num' => 384,
                 'publisher_name' => ' Zenshu',
@@ -1938,7 +1938,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786163246707',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 8',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/b/b6/DanMachi_Light_Novel_Volume_8_Cover.png/revision/latest/scale-to-width-down/350?cb=20150605081723',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/b/b6/DanMachi_Light_Novel_Volume_8_Cover.png',
                 'price' => 189,
                 'pages_num' => 400,
                 'publisher_name' => ' Zenshu',
@@ -1952,7 +1952,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786163246950',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 9',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/2/2e/DanMachi_Light_Novel_Volume_9.jpg/revision/latest/scale-to-width-down/350?cb=20210417092750',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/2/2e/DanMachi_Light_Novel_Volume_9.jpg',
                 'price' => 162,
                 'pages_num' => 276,
                 'publisher_name' => ' Zenshu',
@@ -1966,7 +1966,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786163247414',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 10',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/5/59/DanMachi_Light_Novel_Volume_10_Cover.png/revision/latest/scale-to-width-down/349?cb=20160421211603',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/5/59/DanMachi_Light_Novel_Volume_10_Cover.png',
                 'price' => 180,
                 'pages_num' => 299,
                 'publisher_name' => ' Zenshu',
@@ -1980,7 +1980,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786163248190',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 11',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/6/6a/DanMachi_Light_Novel_Volume_11_Cover.png/revision/latest/scale-to-width-down/350?cb=20160920185412',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/6/6a/DanMachi_Light_Novel_Volume_11_Cover.png',
                 'price' => 198,
                 'pages_num' => 316,
                 'publisher_name' => ' Zenshu',
@@ -1994,7 +1994,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786163249135',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 12',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/2/27/Volume_12_Cover.jpg/revision/latest/scale-to-width-down/350?cb=20170521012224',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/2/27/Volume_12_Cover.jpg',
                 'price' => 180,
                 'pages_num' => 249,
                 'publisher_name' => ' Zenshu',
@@ -2008,7 +2008,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786163249982',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 13',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/4/48/DanMachi_Light_Novel_Volume_13_Cover.png/revision/latest?cb=20180125131224',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/4/48/DanMachi_Light_Novel_Volume_13_Cover.png',
                 'price' => 180,
                 'pages_num' => 217,
                 'publisher_name' => ' Zenshu',
@@ -2022,7 +2022,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786165611008',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 14',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/a/ae/DanMachi_Light_Novel_Volume_14.jpg/revision/latest/scale-to-width-down/350?cb=20210416192144',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/a/ae/DanMachi_Light_Novel_Volume_14.jpg',
                 'price' => 306,
                 'pages_num' => 424,
                 'publisher_name' => ' Zenshu',
@@ -2036,7 +2036,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786165611220',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 15',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/2/27/Volume_15_Cover.jpg/revision/latest/scale-to-width-down/350?cb=20190524095821',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/2/27/Volume_15_Cover.jpg',
                 'price' => 216,
                 'pages_num' => 244,
                 'publisher_name' => ' Zenshu',
@@ -2050,7 +2050,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786165612609',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 16',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/2/2c/Volume_16_Cover.jpg/revision/latest/scale-to-width-down/350?cb=20200915142449',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/2/2c/Volume_16_Cover.jpg',
                 'price' => 216,
                 'pages_num' => 264,
                 'publisher_name' => ' Zenshu',
@@ -2064,7 +2064,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786165613224',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 17',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/a/af/Volume_17_Cover.jpg/revision/latest/scale-to-width-down/350?cb=20210422080500',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/a/af/Volume_17_Cover.jpg',
                 'price' => 270,
                 'pages_num' => 316,
                 'publisher_name' => ' Zenshu',
