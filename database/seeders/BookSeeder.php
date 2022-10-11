@@ -298,7 +298,7 @@ class BookSeeder extends Seeder
                 'novel_flag' => false
             ],
             [
-                'ISBN' => '9786164474093',
+                'ISBN' => '0',
                 'name' => 'Fly Me to The Moon Volume 5',
                 'cover' => 'https://cdn1.mangaqube.com/yaXGGoWRrPkKmGrM_l',
                 'price' => 80,
@@ -678,7 +678,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786165743563',
                 'name' => 'My Dress-Up Darling Volume 1',
-                'cover' => 'https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781646090327_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D',
+                'cover' => 'http://prodimage.images-bn.com/pimages/9781646090327_p0_v2_s1200x630.jpg',
                 'price' => 80,
                 'pages_num' => 208,
                 'publisher_name' => ' LuckPim',
@@ -704,7 +704,7 @@ class BookSeeder extends Seeder
                 'novel_flag' => false
             ],
             [
-                'ISBN' => '9786164476554',
+                'ISBN' => '9786164476929',
                 'name' => 'My Dress-Up Darling Volume 3',
                 'cover' => 'https://prodimage.images-bn.com/pimages/9781646090341_p0_v2_s600x595.jpg',
                 'price' => 80,
@@ -720,7 +720,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786164479005',
                 'name' => 'My Dress-Up Darling Volume 4',
-                'cover' => 'https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781646090518_p0_v91_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D',
+                'cover' => 'https://prodimage.images-bn.com/pimages/9781646090518_p0_v91_s600x595.jpg',
                 'price' => 80,
                 'pages_num' => 192,
                 'publisher_name' => ' LuckPim',
@@ -732,9 +732,9 @@ class BookSeeder extends Seeder
                 'novel_flag' => false
             ],
             [
-                'ISBN' => '9786164476929',
+                'ISBN' => '9786164476554',
                 'name' => 'My Dress-Up Darling Volume 5',
-                'cover' => 'https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781646091133_p0_v2_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D',
+                'cover' => 'https://prodimage.images-bn.com/pimages/9781646091133_p0_v2_s600x595.jpg',
                 'price' => 80,
                 'pages_num' => 192,
                 'publisher_name' => ' LuckPim',
@@ -760,9 +760,9 @@ class BookSeeder extends Seeder
                 'novel_flag' => false
             ],
             [
-                'ISBN' => '9786164476554',
+                'ISBN' => '9786164476568',
                 'name' => 'My Dress-Up Darling Volume 7',
-                'cover' => 'https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/9781646091645_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D',
+                'cover' => 'https://prodimage.images-bn.com/pimages/9781646091645_p0_v1_s600x595.jpg',
                 'price' => 80,
                 'pages_num' => 192,
                 'publisher_name' => ' LuckPim',
@@ -956,7 +956,7 @@ class BookSeeder extends Seeder
                 'novel_flag' => true
             ],
             [
-                'ISBN' => '9786164890404',
+                'ISBN' => '9786164890405',
                 'name' => 'The Rising of the Shield Hero Volume 14',
                 'cover' => 'https://cdn-local.mebmarket.com/meb/server1/155858/Thumbnail/book_detail_large.gif?2',
                 'price' => 270,
@@ -970,7 +970,7 @@ class BookSeeder extends Seeder
                 'novel_flag' => true
             ],
             [
-                'ISBN' => '9786167932040',
+                'ISBN' => '9786164891517',
                 'name' => 'The Rising of the Shield Hero Volume 15',
                 'cover' => 'https://cdn-local.mebmarket.com/meb/server1/181799/Thumbnail/book_detail_large.gif?2',
                 'price' => 288,
@@ -1840,7 +1840,7 @@ class BookSeeder extends Seeder
             [
                 'ISBN' => '9786163241894',
                 'name' => 'Is It Wrong To Try To Pick Up Girls In A Dungeon? Volume 1',
-                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/2/26/Light_Novel_Volume_1.jpg/revision/latest?cb=20210415082425',
+                'cover' => 'https://static.wikia.nocookie.net/dungeon-ni-deai-o-motomeru/images/2/26/Light_Novel_Volume_1.jpg',
                 'price' => 144,
                 'pages_num' => 224,
                 'publisher_name' => ' Zenshu',
