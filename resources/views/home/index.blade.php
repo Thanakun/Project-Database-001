@@ -64,7 +64,9 @@
         </div>
     </div>
     @endguest
+    {!! $books -> links('pagination::bootstrap-5') !!}
 </div>
+
 
     <!-- make pop up disappear in 3 s -->
     <script>
