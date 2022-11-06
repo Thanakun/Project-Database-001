@@ -101,27 +101,27 @@ class BookController extends Controller
 
         \DB::transaction(function () use($book,$cart){
 
-        // if the cart already has selected product
-        // the cart's quantity + 1
-        if($cart != null) {
-            $cart->quantity = $cart->quantity+1;
-            $cart->save();
-        } 
-        // else add new cart
-        else {
-            $cart = new Cart();
-            $cart->name = $book->name;
-            $cart->books_ISBN = $book->ISBN;
-            $cart->quantity = 1;
-            $cart->price = $book->price;
-            $cart->image = $book->cover;
-            $cart->owner_id = Auth::id();
-            $cart->save();
-        }
+            // if the cart already has selected product
+            // the cart's quantity + 1
+            if($cart != null) {
+                $cart->quantity = $cart->quantity+1;
+                $cart->save();
+            } 
+            // else add new cart
+            else {
+                $cart = new Cart();
+                $cart->name = $book->name;
+                $cart->books_ISBN = $book->ISBN;
+                $cart->quantity = 1;
+                $cart->price = $book->price;
+                $cart->image = $book->cover;
+                $cart->owner_id = Auth::id();
+                $cart->save();
+            }
 
-        // for both case, remove one product from stock
-        $book->stock = $book->stock-1 ;
-        $book->save();
+            // for both case, remove one product from stock
+            $book->stock = $book->stock-1 ;
+            $book->save();
         });
 
         // flash a message popup
